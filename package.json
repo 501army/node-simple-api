@@ -1,0 +1,15 @@
+{
+  "name": "node-simple-api",
+  "version": "1.0.0",
+  "description": "Node.js API",
+  "author": "Gavinda Kinandana <gavindakinandana@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.1",
+    "faker": "^4.1.0"
+  }
+}
