@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello there, welcome')
 })
 
-app.get('/user', (req, res) => {
+app.get('/v1/user', (req, res) => {
     let users = []
     for (i = 0; i <= 5; i++) {
         users.push({
